@@ -18,7 +18,7 @@ export const Primary: Story = {
   args: {
     children: "I'm button",
     addOn: {
-      text: "< click here",
+      text: "< click heree",
     },
   },
 };
