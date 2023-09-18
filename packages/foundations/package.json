@@ -50,5 +50,6 @@
     "vite": "^4.4.5",
     "vite-plugin-dts": "^3.5.3",
     "vite-plugin-lib-inject-css": "^1.3.0"
-  }
+  },
+  "repository": "https://github.com/fathurhidayat3/tlerna2"
 }
