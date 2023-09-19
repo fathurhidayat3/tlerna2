@@ -18,5 +18,9 @@ export const Primary: Story = {
   args: {
     title: "Card title",
     content: "I'm card",
+    button: {
+      addOn: { text: "!" },
+      children: "Card action",
+    },
   },
 };

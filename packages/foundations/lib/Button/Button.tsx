@@ -1,14 +1,15 @@
 import styles from "./styles.module.css";
 
-interface ButtonAddon {
+export interface ButtonAddon {
   text: string;
 }
 
-export interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   addOn: ButtonAddon | undefined | null;
 }
 
-export function Button(props: Props) {
+export function Button(props: ButtonProps) {
   const { className, addOn, ...restProps } = props;
   return (
     <>
